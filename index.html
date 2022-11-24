@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fá-Lá-Dó-Mi</title>
+
+    <script src="https://kit.fontawesome.com/a207664a24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Fá-Lá-Dó-Mi</h1>
-    <h2>Jogo 1</h2>
-    <iframe src="https://scratch.mit.edu/projects/741108823/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h2>Jogo 2</h2>
-    <iframe src="https://scratch.mit.edu/projects/742911565/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <h2>Jogo 3</h2>
-    <iframe src="https://scratch.mit.edu/projects/753296018/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-    <a href="https://scratch.mit.edu/projects/753296018">Ir para o Scratch</a>
+    <header>
+        <img src="https://media.discordapp.net/attachments/817862530813657118/1045142407521509396/logo.png"
+            alt="Logo FA-LA-DO-MI">
+
+        <ul>
+            <li><button onclick="changeCurrentGame(1)">Quiz 1</button></li>
+            <li><button onclick="changeCurrentGame(2)">Quiz 2</button></li>
+            <li><button onclick="changeCurrentGame(3)">Quiz 3</button></li>
+        </ul>
+
+        <a href="https://github.com/matheusbonato" target="_blank"><i class="fa-brands fa-github"></i> GitHub <i
+                class="fa-solid fa-arrow-right-long link"></i></a>
+    </header>
+
+    <article>
+        <div>
+            <span>
+                <img src="https://cdn.discordapp.com/attachments/817862530813657118/1045143013225136188/pentagrama.png"
+                    alt="Pentagrama" class="pentagrama">
+                <p>Make walking your daily</p>
+            </span>
+            <span>
+                <p>Habitat that rewards
+                <p>Enjoy outdoors</p>
+                </p>
+            </span>
+        </div>
+
+        <div>
+            <a href="https://scratch.mit.edu/search/projects?q=stradvarius" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/817862530813657118/1045146143467769886/scratch.png"
+                    alt="Gato do Scratch">
+
+                <div>
+                    <p>Jogue no próprio site do</p>
+                    <span>Scratch</span>
+                </div>
+            </a>
+        </div>
+    </article>
+
+    <img src="https://img.freepik.com/fotos-premium/vista-em-perspectiva-do-chao-do-tabuleiro-de-xadrez-com-fundo-de-parede-cinza_25920-2104.jpg?w=2000"
+        alt="Piso quadriculado com um xadrez nas cores preto e branco" class="piso">
+
+    <div class="jogo">
+        <iframe src="https://scratch.mit.edu/projects/741108823/embed" allowtransparency="true" width="500" height="402"
+            frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
