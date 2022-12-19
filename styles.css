@@ -42,7 +42,7 @@ i.link {
 }
 
 ul {
-  width: 25%;
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -106,8 +106,6 @@ article a {
   align-items: center;
   cursor: pointer;
 }
-
-
 
 article a img {
   width: 50px;
